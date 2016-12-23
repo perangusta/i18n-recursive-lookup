@@ -36,9 +36,9 @@ module I18n
 
         compiled_result, had_to_compile_result = deep_compile(locale, result, options)
 
-        if had_to_compile_result
-          cache_compiled_result(locale, key, compiled_result, scope, options)
-        end
+        #if had_to_compile_result
+        #  cache_compiled_result(locale, key, compiled_result, scope, options)
+        #end
 
         compiled_result
       end
